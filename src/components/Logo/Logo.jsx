@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-import burgerlogo from '../../assets/Images/logo.png'
-import classes from './Logo.css'
+import burgerLogo from '../../assets/images/burger-logo.png';
+import classes from './Logo.css';
 
 const logo = (props) => (
-    <div className={classes.Logo}>
-        <img src={burgerlogo} alt="Burger logo"/>
+    <div className={classes.Logo} style={{height: props.height}}>
+        <img src={burgerLogo} alt="MyBurger" />
     </div>
 );
 
